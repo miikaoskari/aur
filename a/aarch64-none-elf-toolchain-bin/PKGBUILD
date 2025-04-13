@@ -2,7 +2,7 @@
 
 _target=aarch64-none-elf
 pkgname=${_target}-toolchain-bin
-pkgver=13.3.rel1
+pkgver=14.2.rel1
 pkgrel=1
 pkgdesc="GNU Toolchain for the AArch64 target"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('GPL', 'LGPL')
 depends=('binutils')
 options=(!emptydirs !strip staticlibs)
 source=("https://developer.arm.com/-/media/Files/downloads/gnu/${pkgver}/binrel/arm-gnu-toolchain-${pkgver}-x86_64-${_target}.tar.xz")
-sha256sums=('7fedf894040580b1db747d06ac5d4263c46e591ffe7695656d1da5accb00a159')
+sha256sums=('eb54c4727440d03199a6af9a6d021e77f45410cad39effce4e5a1c10a88b7f04')
 
 build() {
         return 0
